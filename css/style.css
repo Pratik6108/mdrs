@@ -749,7 +749,8 @@ nav .links a {
     font-weight: 700;
     line-height: 160%;
     /* 28.8px */
-    display: ruby;
+    display: flex;
+    white-space: nowrap;
 }
 
 .testimonials .cards .info .name {
@@ -822,8 +823,9 @@ nav .links a {
 .marquee .text {
     float: left;
     width: 100%;
-    display: block ruby;
+    display: flex;
     overflow: hidden;
+    white-space: nowrap;
 }
 
 .marquee>div:hover {
@@ -1534,6 +1536,7 @@ footer .copyright div {
 
     .testimonials .cards .info h3 {
         display: unset;
+        white-space: unset;
     }
 
     .values h1 {
