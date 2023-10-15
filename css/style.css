@@ -70,7 +70,7 @@ nav .lang-eng {
     background: #348919;
     text-decoration: none;
     color: #FFF;
-
+    overflow:hidden;
     font-family: Roboto Mono;
     font-size: 15px;
     font-style: normal;
