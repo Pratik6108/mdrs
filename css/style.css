@@ -53,7 +53,7 @@ nav {
     padding: 48px 56px;
     display: flex;
     justify-content: space-between;
-
+overflow:hidden;
 }
 
 nav .lang {
@@ -70,7 +70,7 @@ nav .lang-eng {
     background: #348919;
     text-decoration: none;
     color: #FFF;
-    overflow:hidden;
+    
     font-family: Roboto Mono;
     font-size: 15px;
     font-style: normal;
