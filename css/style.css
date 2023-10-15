@@ -52,7 +52,6 @@ nav {
     padding: 48px 56px;
     display: flex;
     justify-content: space-between;
-    overflow:hidden;
     position: relative;
     
 }
@@ -677,6 +676,7 @@ nav .links a {
     top: 50%;
     left: 90px;
     z-index: -1;
+    overflow:hidden;
 }
 
 .testimonials h1 {
