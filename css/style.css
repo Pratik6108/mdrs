@@ -33,12 +33,15 @@
 body {
     overflow-x: hidden;
 }
-
+.wrapper-main{
+    overflow-x: hidden;
+}
 .container {
     max-width: 1440px;
     width: 100%;
     padding: 0 10px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .whats-app {
@@ -53,7 +56,7 @@ nav {
     display: flex;
     justify-content: space-between;
     position: relative;
-    
+
 }
 
 nav .lang {
@@ -70,7 +73,7 @@ nav .lang-eng {
     background: #348919;
     text-decoration: none;
     color: #FFF;
-    
+
     font-family: Roboto Mono;
     font-size: 15px;
     font-style: normal;
@@ -148,6 +151,7 @@ nav .links {
     position: absolute;
     right: -100%;
     overflow: hidden;
+    overflow-y: scroll;
     background: #fff;
     width: 50%;
     height: 100vh;
@@ -157,6 +161,7 @@ nav .links {
     top: 126px;
     transition: right 0.1s ease;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 nav .links a {
@@ -669,6 +674,7 @@ nav .links a {
     position: absolute;
     right: 80px;
     top: 137px;
+    overflow: hidden;
 }
 
 .testimonials .bg-img {
@@ -676,7 +682,6 @@ nav .links a {
     top: 50%;
     left: 90px;
     z-index: -1;
-    overflow:hidden;
 }
 
 .testimonials h1 {
