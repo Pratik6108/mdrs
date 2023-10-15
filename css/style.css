@@ -31,7 +31,6 @@
 }
 
 body {
-    position: relative;
     overflow-x: hidden;
 }
 
@@ -53,7 +52,9 @@ nav {
     padding: 48px 56px;
     display: flex;
     justify-content: space-between;
-overflow:hidden;
+    overflow:hidden;
+    position: relative;
+    
 }
 
 nav .lang {
