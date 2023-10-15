@@ -437,6 +437,7 @@ nav .links a {
 
 .work-style {
     padding-top: 200px;
+        overflow: visible;
 }
 
 .work-style h1 {
