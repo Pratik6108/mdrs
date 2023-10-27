@@ -1562,6 +1562,7 @@ footer .copyright div {
      nav .links {
         gap: 10px;
         height: 90vw;
+        background-color:red;
     } 
 
     nav .lang {
