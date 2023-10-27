@@ -1559,11 +1559,10 @@ footer .copyright div {
         padding: 26px 25px 0px;
     }
 
-    /* nav .links {
+     nav .links {
         gap: 10px;
-        width: 80%;
-        top: 94px;
-    } */
+        width: 90vw;
+    } 
 
     nav .lang {
         display: none;
