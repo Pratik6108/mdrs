@@ -1561,7 +1561,7 @@ footer .copyright div {
 
      nav .links {
         gap: 10px;
-        width: 90vw;
+        height: 90vw;
     } 
 
     nav .lang {
