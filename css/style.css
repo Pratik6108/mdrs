@@ -1561,7 +1561,7 @@ footer .copyright div {
 
      nav .links {
         gap: 10px;
-        height: 90vw;
+        height: 90vh;
         background-color:red;
     } 
 
@@ -1720,7 +1720,6 @@ footer .copyright div {
     nav .links {
         gap: 10px;
         width: 90%;
-        /* height: 80vh; */
         padding-left: 35px;
       }
     .work .projects-done img {
